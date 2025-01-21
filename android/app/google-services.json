@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "48848166745",
+    "project_id": "backend-8c54e",
+    "storage_bucket": "backend-8c54e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48848166745:android:bf988be0a41c94906af648",
+        "android_client_info": {
+          "package_name": "com.example.garagee_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdvdCcmgAipwLm5d9RnSCzEAagIJhXafs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48848166745:android:c5f45d85d9ef49136af648",
+        "android_client_info": {
+          "package_name": "com.example.m1_red"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdvdCcmgAipwLm5d9RnSCzEAagIJhXafs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
