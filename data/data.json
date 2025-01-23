@@ -1,90 +1,90 @@
 {
   "catArr": [
     {
-      "image": "assets/img/cat_offer.png",
-      "name": "Offers"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREArVIDcMNs-XpAmuC9ls4vdY89_KobU-d3Q&s",
+      "name": "Espresso Deals"
     },
     {
-      "image": "assets/img/cat_sri.png",
-      "name": "Sri Lankan"
+      "image": "https://tyberrymuch.com/wp-content/uploads/2024/03/Hazelnut-Iced-Coffee-Recipe-720x720.jpg",
+      "name": "Sri Lankan Brews"
     },
     {
-      "image": "assets/img/cat_3.png",
-      "name": "Italian"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS7dneTYJKYHWK4-uH-t0kEn0cDnDWOjYQeQ&s",
+      "name": "Italian Roast"
     },
     {
-      "image": "assets/img/cat_4.png",
-      "name": "Indian"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwr7po19h3kQfyqqTyeN6M7X_0HSSsCVum7w&s",
+      "name": "Indian Coffee"
     }
   ],
   "popArr": [
     {
-      "image": "assets/img/res_1.png",
-      "name": "Minute by tuk tuk",
+      "image": "https://www.jagel.id/api/listimage/v/Sanger-Dingin-0-8575f0308c38ed0a.jpg",
+      "name": "Latte by Tuk Tuk",
       "rate": "4.9",
       "rating": "124",
-      "type": "Cafa",
-      "food_type": "Western Food"
+      "type": "Cafe",
+      "food_type": "Coffee & Snacks"
     },
     {
-      "image": "assets/img/res_2.png",
-      "name": "Café de Noir",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTivpGHoXgEY9Mbucz0oIpO2yzN48xDq6Pt1g&s",
+      "name": "Café Noir Blend",
       "rate": "4.9",
       "rating": "124",
-      "type": "Cafa",
-      "food_type": "Western Food"
+      "type": "Cafe",
+      "food_type": "Coffee & Snacks"
     },
     {
-      "image": "assets/img/res_3.png",
-      "name": "Bakes by Tella",
+      "image": "https://d1r9hss9q19p18.cloudfront.net/uploads/2017/07/Hario-V60.jpg",
+      "name": "Brewed by Tella",
       "rate": "4.9",
       "rating": "124",
-      "type": "Cafa",
-      "food_type": "Western Food"
+      "type": "Cafe",
+      "food_type": "Coffee & Snacks"
     }
   ],
   "mostPopArr": [
     {
-      "image": "assets/img/m_res_1.png",
-      "name": "Minute by tuk tuk",
+      "image": "https://img.freepik.com/premium-photo/creating-latte-art-coffee_908985-22032.jpg",
+      "name": "Espresso by Tuk Tuk",
       "rate": "4.9",
       "rating": "124",
-      "type": "Cafa",
-      "food_type": "Western Food"
+      "type": "Cafe",
+      "food_type": "Coffee & Snacks"
     },
     {
-      "image": "assets/img/m_res_2.png",
-      "name": "Café de Noir",
+      "image": "https://i0.wp.com/deltacoffee.co.id/wp-content/uploads/2023/03/Kopitiam-Vietnam-Drip.jpg?resize=500%2C500&ssl=1",
+      "name": "Mocha Noir",
       "rate": "4.9",
       "rating": "124",
-      "type": "Cafa",
-      "food_type": "Western Food"
+      "type": "Cafe",
+      "food_type": "Coffee & Snacks"
     }
   ],
   "recentArr": [
     {
-      "image": "assets/img/item_1.png",
-      "name": "Mulberry Pizza by Josh",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREx4V-9zVele8zPqEH8qsHczAW9bH4t4g72Q&s",
+      "name": "Cappuccino by Josh",
       "rate": "4.9",
       "rating": "124",
-      "type": "Cafa",
-      "food_type": "Western Food"
+      "type": "Cafe",
+      "food_type": "Coffee & Snacks"
     },
     {
-      "image": "assets/img/item_2.png",
-      "name": "Barita",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbJtSSD9k_DJaG5k1Ssg3dh5vEqAFULlQnOA&s",
+      "name": "Barista Barita",
       "rate": "4.9",
       "rating": "124",
-      "type": "Cafa",
-      "food_type": "Western Food"
+      "type": "Cafe",
+      "food_type": "Coffee & Snacks"
     },
     {
-      "image": "assets/img/item_3.png",
-      "name": "Pizza Rush Hour",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiQxnY7twGl2Cq4Az5c2da1yF7fHJggSJYJw&s",
+      "name": "Coffee Rush Hour",
       "rate": "4.9",
       "rating": "124",
-      "type": "Cafa",
-      "food_type": "Western Food"
+      "type": "Cafe",
+      "food_type": "Coffee & Snacks"
     }
   ]
 }
