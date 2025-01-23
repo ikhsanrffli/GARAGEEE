@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:garagee_project/common/color_extension.dart';
+import 'package:garagee_project/common/location.dart';
 import 'package:garagee_project/common_widget/round_textfield.dart';
 
 import '../../common/globs.dart';
@@ -10,6 +11,7 @@ import '../../common_widget/popular_resutaurant_row.dart';
 import '../../common_widget/recent_item_row.dart';
 import '../../common_widget/view_all_title_row.dart';
 import '../more/my_order_view.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -19,6 +21,29 @@ class HomeView extends StatefulWidget {
 }
 
 class _HomeViewState extends State<HomeView> {
+  String? userLocation;
+
+  Future<void> _fetchLocation() async {
+    final position = await LocationService.getCurrentLocation();
+    if (position != null) {
+      final address = await LocationService.convertCoordinates(
+          position.latitude, position.longitude);
+      setState(() {
+        userLocation = address ?? "Lokasi tidak ditemukan";
+      });
+    } else {
+      setState(() {
+        userLocation = "Izin lokasi tidak diberikan";
+      });
+    }
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    _fetchLocation();
+  }
+
   TextEditingController txtSearch = TextEditingController();
 
   List catArr = [
@@ -73,6 +98,27 @@ class _HomeViewState extends State<HomeView> {
       "food_type": "Western Food"
     },
   ];
+  late InterstitialAd _interstitialAd;
+  bool _isInterstitialReady = false;
+
+  void _loadInterstitialAd() {
+    InterstitialAd.load(
+        adUnitId: "ca-app-pub-3940256099942544/1033173712",
+        request: AdRequest(),
+        adLoadCallback: InterstitialAdLoadCallback(onAdLoaded: (ad) {
+          ad.fullScreenContentCallback =
+              FullScreenContentCallback(onAdDismissedFullScreenContent: (ad) {
+            print("Close Ad");
+          });
+          setState(() {
+            _isInterstitialReady = true;
+            _interstitialAd = ad;
+          });
+        }, onAdFailedToLoad: (err) {
+          _isInterstitialReady = false;
+          _interstitialAd.dispose();
+        }));
+  }
 
   List recentArr = [
     {
@@ -126,6 +172,10 @@ class _HomeViewState extends State<HomeView> {
                     ),
                     IconButton(
                       onPressed: () {
+                        _loadInterstitialAd();
+                        if (_isInterstitialReady) {
+                          _interstitialAd.show();
+                        }
                         Navigator.push(
                             context,
                             MaterialPageRoute(
@@ -160,7 +210,7 @@ class _HomeViewState extends State<HomeView> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Text(
-                          "Current Location",
+                          userLocation ?? "Current Location",
                           style: TextStyle(
                               color: TColor.secondaryText,
                               fontSize: 16,

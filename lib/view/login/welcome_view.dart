@@ -29,7 +29,7 @@ class _WelcomeViewState extends State<WelcomeView> {
                   width: media.width,
                 ),
                 Image.asset(
-                  "assets/img/app_logo.png",
+                  "assets/img/logogaragecircle.png",
                   width: media.width * 0.55,
                   height: media.width * 0.55,
                   fit: BoxFit.contain,
@@ -40,11 +40,11 @@ class _WelcomeViewState extends State<WelcomeView> {
               height: media.width * 0.1,
             ),
             Text(
-              "Discover the best foods from over 1,000\nrestaurants and fast delivery to your\ndoorstep",
+              "Uncover your new favorite blend \nin every cup we serve.",
               textAlign: TextAlign.center,
               style: TextStyle(
-                  color: TColor.secondaryText,
-                  fontSize: 13,
+                  color: TColor.primaryText,
+                  fontSize: 18,
                   fontWeight: FontWeight.w500),
             ),
             SizedBox(

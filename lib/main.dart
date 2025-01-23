@@ -10,6 +10,7 @@ import 'package:garagee_project/view/login/welcome_view.dart';
 import 'package:garagee_project/view/main_tabview/main_tabview.dart';
 import 'package:garagee_project/view/on_boarding/startup_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'common/globs.dart';
 import 'common/my_http_overrides.dart';
@@ -19,6 +20,7 @@ void main() async {
   setUpLocator();
   HttpOverrides.global = MyHttpOverrides();
   WidgetsFlutterBinding.ensureInitialized();
+  MobileAds.instance.initialize();
   await Firebase.initializeApp();
   prefs = await SharedPreferences.getInstance();
 

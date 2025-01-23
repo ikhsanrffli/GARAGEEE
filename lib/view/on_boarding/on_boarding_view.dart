@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:garagee_project/common/color_extension.dart';
 import 'package:garagee_project/common_widget/round_button.dart';
 import 'package:garagee_project/view/main_tabview/main_tabview.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class OnBoardingView extends StatefulWidget {
   const OnBoardingView({super.key});
@@ -33,6 +34,27 @@ class _OnBoardingViewState extends State<OnBoardingView> {
       "image": "assets/img/on_boarding_3.png",
     },
   ];
+  late InterstitialAd _interstitialAd;
+  bool _isInterstitialReady = false;
+
+  void _loadInterstitialAd() {
+    InterstitialAd.load(
+        adUnitId: "ca-app-pub-3940256099942544/1033173712",
+        request: AdRequest(),
+        adLoadCallback: InterstitialAdLoadCallback(onAdLoaded: (ad) {
+          ad.fullScreenContentCallback =
+              FullScreenContentCallback(onAdDismissedFullScreenContent: (ad) {
+            print("Close Ad");
+          });
+          setState(() {
+            _isInterstitialReady = true;
+            _interstitialAd = ad;
+          });
+        }, onAdFailedToLoad: (err) {
+          _isInterstitialReady = false;
+          _interstitialAd.dispose();
+        }));
+  }
 
   @override
   void initState() {
@@ -132,6 +154,10 @@ class _OnBoardingViewState extends State<OnBoardingView> {
                 child: RoundButton(
                     title: "Next",
                     onPressed: () {
+                      _loadInterstitialAd();
+                      if (_isInterstitialReady) {
+                        _interstitialAd.show();
+                      }
                       if (selectPage >= 2) {
                         // Home Screen
 
