@@ -1,0 +1,90 @@
+{
+  "catArr": [
+    {
+      "image": "assets/img/cat_offer.png",
+      "name": "Offers"
+    },
+    {
+      "image": "assets/img/cat_sri.png",
+      "name": "Sri Lankan"
+    },
+    {
+      "image": "assets/img/cat_3.png",
+      "name": "Italian"
+    },
+    {
+      "image": "assets/img/cat_4.png",
+      "name": "Indian"
+    }
+  ],
+  "popArr": [
+    {
+      "image": "assets/img/res_1.png",
+      "name": "Minute by tuk tuk",
+      "rate": "4.9",
+      "rating": "124",
+      "type": "Cafa",
+      "food_type": "Western Food"
+    },
+    {
+      "image": "assets/img/res_2.png",
+      "name": "Café de Noir",
+      "rate": "4.9",
+      "rating": "124",
+      "type": "Cafa",
+      "food_type": "Western Food"
+    },
+    {
+      "image": "assets/img/res_3.png",
+      "name": "Bakes by Tella",
+      "rate": "4.9",
+      "rating": "124",
+      "type": "Cafa",
+      "food_type": "Western Food"
+    }
+  ],
+  "mostPopArr": [
+    {
+      "image": "assets/img/m_res_1.png",
+      "name": "Minute by tuk tuk",
+      "rate": "4.9",
+      "rating": "124",
+      "type": "Cafa",
+      "food_type": "Western Food"
+    },
+    {
+      "image": "assets/img/m_res_2.png",
+      "name": "Café de Noir",
+      "rate": "4.9",
+      "rating": "124",
+      "type": "Cafa",
+      "food_type": "Western Food"
+    }
+  ],
+  "recentArr": [
+    {
+      "image": "assets/img/item_1.png",
+      "name": "Mulberry Pizza by Josh",
+      "rate": "4.9",
+      "rating": "124",
+      "type": "Cafa",
+      "food_type": "Western Food"
+    },
+    {
+      "image": "assets/img/item_2.png",
+      "name": "Barita",
+      "rate": "4.9",
+      "rating": "124",
+      "type": "Cafa",
+      "food_type": "Western Food"
+    },
+    {
+      "image": "assets/img/item_3.png",
+      "name": "Pizza Rush Hour",
+      "rate": "4.9",
+      "rating": "124",
+      "type": "Cafa",
+      "food_type": "Western Food"
+    }
+  ]
+}
