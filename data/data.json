@@ -1,25 +1,25 @@
 {
   "catArr": [
     {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREArVIDcMNs-XpAmuC9ls4vdY89_KobU-d3Q&s",
+      "url_image": "https://encrypted-tbn0.gstatic.com/url_images?q=tbn:ANd9GcREArVIDcMNs-XpAmuC9ls4vdY89_KobU-d3Q&s",
       "name": "Espresso Deals"
     },
     {
-      "image": "https://tyberrymuch.com/wp-content/uploads/2024/03/Hazelnut-Iced-Coffee-Recipe-720x720.jpg",
+      "url_image": "https://tyberrymuch.com/wp-content/uploads/2024/03/Hazelnut-Iced-Coffee-Recipe-720x720.jpg",
       "name": "Sri Lankan Brews"
     },
     {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS7dneTYJKYHWK4-uH-t0kEn0cDnDWOjYQeQ&s",
+      "url_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS7dneTYJKYHWK4-uH-t0kEn0cDnDWOjYQeQ&s",
       "name": "Italian Roast"
     },
     {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwr7po19h3kQfyqqTyeN6M7X_0HSSsCVum7w&s",
+      "url_image": "https://encrypted-tbn0.gstatic.com/url_images?q=tbn:ANd9GcRwr7po19h3kQfyqqTyeN6M7X_0HSSsCVum7w&s",
       "name": "Indian Coffee"
     }
   ],
   "popArr": [
     {
-      "image": "https://www.jagel.id/api/listimage/v/Sanger-Dingin-0-8575f0308c38ed0a.jpg",
+      "url_image": "https://www.jagel.id/api/listurl_image/v/Sanger-Dingin-0-8575f0308c38ed0a.jpg",
       "name": "Latte by Tuk Tuk",
       "rate": "4.9",
       "rating": "124",
@@ -27,7 +27,7 @@
       "food_type": "Coffee & Snacks"
     },
     {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTivpGHoXgEY9Mbucz0oIpO2yzN48xDq6Pt1g&s",
+      "url_image": "https://encrypted-tbn0.gstatic.com/url_images?q=tbn:ANd9GcTivpGHoXgEY9Mbucz0oIpO2yzN48xDq6Pt1g&s",
       "name": "Café Noir Blend",
       "rate": "4.9",
       "rating": "124",
@@ -35,7 +35,7 @@
       "food_type": "Coffee & Snacks"
     },
     {
-      "image": "https://d1r9hss9q19p18.cloudfront.net/uploads/2017/07/Hario-V60.jpg",
+      "url_image": "https://d1r9hss9q19p18.cloudfront.net/uploads/2017/07/Hario-V60.jpg",
       "name": "Brewed by Tella",
       "rate": "4.9",
       "rating": "124",
@@ -45,7 +45,7 @@
   ],
   "mostPopArr": [
     {
-      "image": "https://img.freepik.com/premium-photo/creating-latte-art-coffee_908985-22032.jpg",
+      "url_image": "https://img.freepik.com/premium-photo/creating-latte-art-coffee_908985-22032.jpg",
       "name": "Espresso by Tuk Tuk",
       "rate": "4.9",
       "rating": "124",
@@ -53,7 +53,7 @@
       "food_type": "Coffee & Snacks"
     },
     {
-      "image": "https://i0.wp.com/deltacoffee.co.id/wp-content/uploads/2023/03/Kopitiam-Vietnam-Drip.jpg?resize=500%2C500&ssl=1",
+      "url_image": "https://i0.wp.com/deltacoffee.co.id/wp-content/uploads/2023/03/Kopitiam-Vietnam-Drip.jpg?resize=500%2C500&ssl=1",
       "name": "Mocha Noir",
       "rate": "4.9",
       "rating": "124",
@@ -63,7 +63,7 @@
   ],
   "recentArr": [
     {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREx4V-9zVele8zPqEH8qsHczAW9bH4t4g72Q&s",
+      "url_image": "https://encrypted-tbn0.gstatic.com/url_images?q=tbn:ANd9GcREx4V-9zVele8zPqEH8qsHczAW9bH4t4g72Q&s",
       "name": "Cappuccino by Josh",
       "rate": "4.9",
       "rating": "124",
@@ -71,7 +71,7 @@
       "food_type": "Coffee & Snacks"
     },
     {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbJtSSD9k_DJaG5k1Ssg3dh5vEqAFULlQnOA&s",
+      "url_image": "https://encrypted-tbn0.gstatic.com/url_images?q=tbn:ANd9GcRbJtSSD9k_DJaG5k1Ssg3dh5vEqAFULlQnOA&s",
       "name": "Barista Barita",
       "rate": "4.9",
       "rating": "124",
@@ -79,7 +79,7 @@
       "food_type": "Coffee & Snacks"
     },
     {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiQxnY7twGl2Cq4Az5c2da1yF7fHJggSJYJw&s",
+      "url_image": "https://encrypted-tbn0.gstatic.com/url_images?q=tbn:ANd9GcTiQxnY7twGl2Cq4Az5c2da1yF7fHJggSJYJw&s",
       "name": "Coffee Rush Hour",
       "rate": "4.9",
       "rating": "124",
